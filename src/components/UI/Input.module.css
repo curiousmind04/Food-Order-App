@@ -16,3 +16,13 @@
   font: inherit;
   padding-left: 0.5rem;
 }
+
+@media (max-width: 35rem) {
+  .input label,
+  .input input {
+    font-size: 0.8rem;
+  }
+  .input label {
+    margin-right: 0.6rem;
+  }
+}

@@ -62,3 +62,13 @@
   border-color: #aa0b20;
   background-color: #ffeff1;
 }
+
+@media (max-width: 35rem) {
+  .actions {
+    justify-content: space-around;
+  }
+  .actions button {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+}

@@ -44,3 +44,10 @@
     transform: translateY(0);
   }
 }
+
+@media (max-width: 35rem) {
+  .modal {
+    left: 1%;
+    width: 98%;
+  }
+}

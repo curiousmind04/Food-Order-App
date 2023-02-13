@@ -63,3 +63,20 @@
   background-color: #8a2b06;
   color: white;
 }
+
+@media (max-width: 35rem) {
+  .cart-item h2 {
+    font-size: 0.8rem;
+  }
+  .amount {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.25rem;
+  }
+  .cart-item button {
+    width: 1.6rem;
+    font-size: 0.8rem;
+  }
+  .summary {
+    width: 8rem;
+  }
+}

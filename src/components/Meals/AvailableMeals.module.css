@@ -32,3 +32,9 @@
     transform: translateY(0);
   }
 }
+
+@media (max-width: 35rem) {
+  .meals {
+    width: 98%;
+  }
+}

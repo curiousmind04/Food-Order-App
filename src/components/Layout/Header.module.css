@@ -27,3 +27,9 @@
   object-fit: cover;
   transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
+
+@media (max-width: 35rem) {
+  h1 {
+    font-size: 0.8rem;
+  }
+}
